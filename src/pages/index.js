@@ -91,6 +91,7 @@ const IndexPage = () => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
             {i !== samplePageLinks.length - 1 && <> · </>}
+            {/* such a show off  */}
           </React.Fragment>
         ))}
         <br />
